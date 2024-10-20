@@ -79,7 +79,12 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Commands\CodeGreen.cs" />
-    <Compile Include="Commands\Startup.cs" />
+    <Compile Include="Commands\Startup\scp049.cs" />
+    <Compile Include="Commands\Startup\scp096.cs" />
+    <Compile Include="Commands\Startup\scp106.cs" />
+    <Compile Include="Commands\Startup\scp173.cs" />
+    <Compile Include="Commands\Startup\scp939.cs" />
+    <Compile Include="Commands\Startup\Startup.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
