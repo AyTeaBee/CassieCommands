@@ -1,5 +1,6 @@
 ﻿using Exiled.API.Features;
 using Exiled.Loader;
+using lights = Exiled.Events.EventArgs.Map;
 
 namespace CassieCommands
 {

@@ -1,6 +1,7 @@
 ﻿using CommandSystem;
 using System;
 using Exiled.API.Features;
+using CassieCommands.EventHandlers;
 
 namespace CassieCommands.Commands.Startup
 {
@@ -20,8 +21,12 @@ namespace CassieCommands.Commands.Startup
                 return false;
             }
 
+            var blackoutEventHandler = new BlackoutEventHandler();
+            
+
             Cassie.Message("Light Systems . .  <color=#00FF00><size=30> Online .</size></color> Door Systems . .  <color=#00FF00> <size=30> Online .</size></color> Welcome to <color=#800080> <size=35> Site 2. </size></color> Today's testing will be on <color=#FF0000><size=35> SCP 9 3 9", false, true, false);
-            response = "Successfully played the announcement.";
+            response = "Successfully played the command.";
+            Log.Debug($"{sender} has used the scp939 startup command.");
             return true;
         }
     }

@@ -90,6 +90,7 @@
     <Compile Include="Commands\Startup\scp939.cs" />
     <Compile Include="Commands\Startup\Startup.cs" />
     <Compile Include="Config.cs" />
+    <Compile Include="EventHandlers\BlackoutEventHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
